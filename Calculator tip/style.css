@@ -1,0 +1,35 @@
+select{
+    display: initial;
+}
+body{
+    background: url(https://source.unsplash.com/nmpW_WwwVSc) center/cover no-repeat;
+    height: 100vh;
+}
+.card{
+    width: 30rem;
+    top: 15%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(124, 124, 124);
+    box-shadow: 0 0 10px 3px #333;
+    padding: 10px;
+}
+.btn{
+    width: 135px;
+}
+#ServiceQuality{
+    border-bottom: 1px solid rgb(148, 143, 143);
+    margin-bottom: 5px;
+    
+}
+.text-sec{
+    color: #926831;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+}
+.text-prim{
+    color: #362715;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+}

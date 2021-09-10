@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://source.unsplash.com/I3adKpDNAjM) center/cover no-repeat;
+    height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container{
+    position: relative;
+    top: 30vh;
+    max-width: 400px;
+    margin: auto;
+}
+#enter{
+    background-color: #fff;
+    color: #04a1bf;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 25px;
+    transition: all 0.5s ease;
+    font-size: 15px;
+}
+#enter:hover{
+    background-color: #04a1bf;
+    color: #fff;
+    cursor: pointer;
+}
+input{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    outline: none;
+}
+ul{
+    margin-top: 20px;
+    margin-left: -38px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid #04a1bf;
+    padding: 10px 20px;
+    color: #111;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+}
+li:hover{
+    background-color: #264247;
+    color: #fff;
+}                                                            
+.done{
+    color: gray;
+    text-decoration: line-through;
+}      
+li > button{
+    float: right;
+    border: none;
+    outline: none;
+    color: #264247;
+    background: none;
+    font-weight: 900;
+}                            
+li:hover > button{
+    color: #fff;
+    cursor: pointer;
+}

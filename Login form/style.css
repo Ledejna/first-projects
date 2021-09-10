@@ -1,0 +1,49 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: url('https://source.unsplash.com/lmFJOx7hPc4') center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    text-shadow: 2px 1px 1px black;
+}
+.login-container{
+    position: relative;
+    top: 20%;
+    margin: auto;
+    max-width: 700px;
+    height: 550px;
+    background-color: rgba(20, 20, 20, 0.8);
+    padding: 2rem;
+    color: #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px (0, 0, 0, 0.4);
+}
+.form-field{
+    padding: 10px;
+}
+.form-field input{
+    color: #ddd;
+}
+.btn{
+    width: 120px;
+    margin: 2rem 0;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.alert-msg{
+    visibility: hidden;
+}
+i.far.fa-eye{
+    cursor: pointer;
+}
+.form-field.error input{
+    border-color: red;
+}
+.form-field.succes input{
+    border-color: yellowgreen;
+}
